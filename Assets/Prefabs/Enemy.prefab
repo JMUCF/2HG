@@ -134,6 +134,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d24d09f767bab4ca53bb843d595bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 5
+  deadText: {fileID: 0}
+  navMeshAgent: {fileID: 0}
+  waypoints: []
+  SoundBox: []
 --- !u!54 &2266382334836492600
 Rigidbody:
   m_ObjectHideFlags: 0

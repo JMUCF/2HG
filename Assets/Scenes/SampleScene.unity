@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &7957150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 108222398}
   - component: {fileID: 108222397}
   - component: {fileID: 108222396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,6 +713,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d42b23fdd72770458ef103b3d5623d9, type: 3}
+--- !u!1 &310433511 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7772045494919966043, guid: d4ea38ff7dcc9d84e9e908801cdaab8e, type: 3}
+  m_PrefabInstance: {fileID: 6200953919996596063}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &394962220
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,7 +730,7 @@ GameObject:
   - component: {fileID: 394962224}
   - component: {fileID: 394962223}
   - component: {fileID: 394962222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1035,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1198,7 +1203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1148479990}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1286,6 +1291,27 @@ NavMeshAgent:
   m_CorrespondingSourceObject: {fileID: 5679543204358373282, guid: d4ea38ff7dcc9d84e9e908801cdaab8e, type: 3}
   m_PrefabInstance: {fileID: 6200953919996596063}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1468762480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310433511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84fbac5c67ace9d42a601f96b297beb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadius: 20
+  viewAngle: 90
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 8
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 64
+  visibleTarget: []
 --- !u!1 &1548203997
 GameObject:
   m_ObjectHideFlags: 0
@@ -6193,7 +6219,7 @@ GameObject:
   - component: {fileID: 1638907204}
   - component: {fileID: 1638907203}
   - component: {fileID: 1638907202}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6425,7 +6451,7 @@ GameObject:
   - component: {fileID: 1896901124}
   - component: {fileID: 1896901123}
   - component: {fileID: 1896901122}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6522,7 +6548,7 @@ GameObject:
   - component: {fileID: 2073674677}
   - component: {fileID: 2073674676}
   - component: {fileID: 2073674675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6619,7 +6645,7 @@ GameObject:
   - component: {fileID: 2115395910}
   - component: {fileID: 2115395909}
   - component: {fileID: 2115395908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6783,6 +6809,10 @@ PrefabInstance:
     - target: {fileID: 8752206146110997460, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752206146110997460, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}

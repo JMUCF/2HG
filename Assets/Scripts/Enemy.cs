@@ -13,9 +13,13 @@ public class Enemy : MonoBehaviour
     private int currentWaypointIndex;
     public GameObject[] SoundBox;
 
+	private FieldOfView fov;
+
     // Start is called before the first frame update
     void Start()
     {
+		fov = GetComponent<FieldOfView>();
+		
         navMeshAgent.SetDestination(waypoints[0].position);
         navMeshAgent.stoppingDistance = 1f;
     }
@@ -23,6 +27,9 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if(fov.visibleTarget.Count > 0)
+			navMeshAgent.SetDestination(target.transform.position);
+		
         SoundBox = GameObject.FindGameObjectsWithTag("SoundBox");
 
         if (SoundBox.Length != 0)
