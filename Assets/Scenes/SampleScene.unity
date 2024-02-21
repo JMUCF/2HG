@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7957150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1022,7 +1022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -6224,7 +6224,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1638907201
 Transform:
@@ -6740,7 +6740,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1078089637626210383, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
       propertyPath: MoveSpeed
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1078089637626210383, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
       propertyPath: throwable
@@ -6768,7 +6768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2356927027813020926, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.98
+      value: -8.68
       objectReference: {fileID: 0}
     - target: {fileID: 2356927027813020926, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6805,6 +6805,22 @@ PrefabInstance:
     - target: {fileID: 3029918737125638171, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 3029918737125638171, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3029918737125638171, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4699872989988094310, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4699872989988094310, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8752206146110997460, guid: 120c2c721ffdfac4fa1251886d23f5a8, type: 3}
       propertyPath: m_Name
@@ -6916,6 +6932,10 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[2]
       value: 
       objectReference: {fileID: 1122035830}
+    - target: {fileID: 2266382334836492600, guid: d4ea38ff7dcc9d84e9e908801cdaab8e, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7772045494919966043, guid: d4ea38ff7dcc9d84e9e908801cdaab8e, type: 3}
       propertyPath: m_Name
       value: Enemy

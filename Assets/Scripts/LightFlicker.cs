@@ -7,31 +7,25 @@ public class LightFlicker : MonoBehaviour
     public GameObject lightObj;
     private float rand;
 
-    void Start()
+    void FixedUpdate()
     {
-        Flicker();
+        StartCoroutine("Flicker");
     }
 
-    void Flicker()
+    void LightStuff()
     {
-        for(int i = 0; i < 100; i++)
+        rand = Random.Range(0, 20);
+        if (rand <= 0)
         {
-            StartCoroutine(waitOneSecond());
-            rand = Random.Range(0, 10);
-            //Debug.Log(rand);
-            if (rand <= 4)
-            {
-                lightObj.GetComponent<Light>().enabled = false;
-            }
-            else
-                lightObj.GetComponent<Light>().enabled = true;
+            lightObj.GetComponent<Light>().enabled = false;
         }
+        else
+            lightObj.GetComponent<Light>().enabled = true;
     }
 
-    IEnumerator waitOneSecond()
+    IEnumerator Flicker()
     {
-        Debug.Log("Started coroutine to wait 1 second");
-        yield return new WaitForSeconds(1);
-        Debug.Log("Waited one second");
+        yield return new WaitForSeconds(1f);
+        LightStuff();
     }
 }
