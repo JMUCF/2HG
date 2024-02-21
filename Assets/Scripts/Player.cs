@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     public Rigidbody Rigid;
     public float MouseSensitivity;
     public float MoveSpeed;
-    public float JumpForce;
 	public GameObject throwable;
 	
 	public float throwSpeed = 10f; // Adjust this value to control the initial speed of the throw
