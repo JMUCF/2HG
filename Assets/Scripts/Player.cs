@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
  
 public class Player : MonoBehaviour
@@ -29,8 +31,7 @@ public class Player : MonoBehaviour
 		playerCamera.transform.rotation = camRotation;
 
 		// Move the player based on input
-		Vector3 movement = transform.forward * Input.GetAxis("Vertical") * MoveSpeed +
-			transform.right * Input.GetAxis("Horizontal") * MoveSpeed;
+		Vector3 movement = transform.forward * Input.GetAxis("Vertical") * MoveSpeed + transform.right * Input.GetAxis("Horizontal") * MoveSpeed;
 		Rigid.MovePosition(transform.position + movement);
 
 		if (Input.GetKeyDown("space"))
