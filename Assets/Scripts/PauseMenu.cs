@@ -11,6 +11,7 @@ public class PauseMenu : MonoBehaviour
     public AudioSource musicSource;
     public AudioClip buttonAudio;
     public AudioClip pauseAudio;
+    public AudioClip Ambience;
 
     void Start()
     {
@@ -40,6 +41,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        musicSource.clip = Ambience;
+        musicSource.Play();
     }
 
     private void Pause()
@@ -47,12 +50,16 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        musicSource.clip = Ambience;
+        musicSource.Pause();
     }
 
     public void LoadControlsMenu()
     {
         SceneManager.LoadScene("ControlsScreen");
         Debug.Log("Loading Controls");
+        musicSource.clip = buttonAudio;
+        musicSource.Pause();
     }
 
 
@@ -60,6 +67,8 @@ public class PauseMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
         Debug.Log("Loading Menu");
+        musicSource.clip = buttonAudio;
+        musicSource.Pause();
     }
 
     public void QuitButton()

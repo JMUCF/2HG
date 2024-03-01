@@ -8,20 +8,10 @@ public class Audio : MonoBehaviour
     public AudioSource musicSource;
     public AudioClip buttonAudio;
     public AudioClip pauseAudio;
+    public AudioClip ambience;
     public static Audio instance;
 
-    private void Awake()
-    {
-       if (instance != null)
-        {
-            Destroy(gameObject);
-        }
-       else
-        {
-            instance = this;
-            DontDestroyOnLoad(this.gameObject);
-        }
-    }
+
 
     public void Update()
     {
@@ -43,6 +33,8 @@ public class Audio : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "SampleScene")
         {
             musicSource.clip = buttonAudio;
+            musicSource.Play();
+            musicSource.clip = ambience;
             musicSource.Play();
         }
     }
