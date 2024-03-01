@@ -5,6 +5,34 @@ using UnityEngine.SceneManagement;
 
 public class MenuNavigation : MonoBehaviour
 {
+    public AudioSource musicSource;
+    public AudioClip buttonAudio;
+    public AudioClip pauseAudio;
+
+    public void Update()
+    {
+        if (SceneManager.GetActiveScene().name == "MainMenu")
+        {
+            musicSource.clip = buttonAudio;
+            musicSource.Play();
+        }
+        if (SceneManager.GetActiveScene().name == "ControlsScreen")
+        {
+            musicSource.clip = buttonAudio;
+            musicSource.Play();
+        }
+        if (SceneManager.GetActiveScene().name == "CreditsScreen")
+        {
+            musicSource.clip = buttonAudio;
+            musicSource.Play();
+        }
+        if (SceneManager.GetActiveScene().name == "SampleScene")
+        {
+            musicSource.clip = buttonAudio;
+            musicSource.Play();
+        }
+    }
+
     public void PlayButton()
     {
         SceneManager.LoadScene("SampleScene");
