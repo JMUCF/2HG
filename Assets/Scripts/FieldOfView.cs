@@ -10,7 +10,6 @@ public class FieldOfView : MonoBehaviour
 	public bool isPaused = false;
 	public LayerMask targetMask;
 	public LayerMask obstacleMask;
-	public PauseMenu pauseMenu;
 	
 	public List<Transform> visibleTarget = new List<Transform>();
 	
@@ -49,9 +48,6 @@ public class FieldOfView : MonoBehaviour
 	
 	public Vector3 DirFromAngle(float angleInDegrees, bool angleIsGlobal)
     {
-        if (pauseMenu.GameIsPaused)
-        {
-        }
         if (!angleIsGlobal)
             angleInDegrees += transform.eulerAngles.y;
         return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));

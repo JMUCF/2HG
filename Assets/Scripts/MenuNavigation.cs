@@ -13,7 +13,7 @@ public class MenuNavigation : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Main Level");
         musicSource.clip = Ambience;
         musicSource.Play();
     }

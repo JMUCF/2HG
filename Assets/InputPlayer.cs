@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class InputPlayer : MonoBehaviour
 {
+    public PauseMenu pauseMenu;
+
     PlayerControls controls;
     Vector2 move;
     Vector2 rotate;
@@ -32,6 +34,8 @@ public class InputPlayer : MonoBehaviour
 
     void Update()
     {
+        if (pauseMenu.GameIsPaused == false)
+		{
         #region controller movement
         // Movement
         Vector3 m = new Vector3(move.x, 0, move.y) * 10f * Time.deltaTime;
@@ -77,6 +81,7 @@ public class InputPlayer : MonoBehaviour
         cameraRotation.x = clampedXRotation;
         cameraTransform.transform.localEulerAngles = cameraRotation;
         #endregion
+        }
     }
 
     void Throw()
