@@ -69,8 +69,7 @@ public class InputPlayer : MonoBehaviour
         #endregion
 
         #region cameraClamp
-        //Vector3 cameraRotation = cameraTransform.transform.localEulerAngles;
-        Vector3 cameraRotation = Vector3.zero;
+        Vector3 cameraRotation = cameraTransform.transform.localEulerAngles;
         // Min/max angles for vertical rotation
         float minVerticalAngle = -40f;
         float maxVerticalAngle = 40f;
@@ -80,6 +79,8 @@ public class InputPlayer : MonoBehaviour
         clampedXRotation = Mathf.Clamp(clampedXRotation, minVerticalAngle, maxVerticalAngle);
         // Assign clamped rotation back to camera
         cameraRotation.x = clampedXRotation;
+        cameraRotation.y = 0;
+        cameraRotation.z = 0;
         cameraTransform.transform.localEulerAngles = cameraRotation;
         #endregion
         }
