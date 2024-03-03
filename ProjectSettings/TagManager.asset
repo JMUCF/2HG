@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - SoundBox
+  - Collectible
+  - hydrant
+  - key
   layers:
   - Default
   - TransparentFX
