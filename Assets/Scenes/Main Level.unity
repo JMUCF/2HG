@@ -464,8 +464,8 @@ GameObject:
   m_Name: Exit Hallway Wall Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &81791722
 Transform:
@@ -889,8 +889,8 @@ GameObject:
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &130628650
 BoxCollider:
@@ -1222,8 +1222,8 @@ GameObject:
   m_Name: Angled Wall Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &199769389
 BoxCollider:
@@ -1830,8 +1830,8 @@ GameObject:
   m_Name: Cafeteria Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &278942232
 Transform:
@@ -2288,8 +2288,8 @@ GameObject:
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &371957096
 BoxCollider:
@@ -2758,8 +2758,8 @@ GameObject:
   m_Name: Cell Wall Right Of Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &421988449
 Transform:
@@ -3195,8 +3195,8 @@ GameObject:
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &495422547
 Transform:
@@ -3334,6 +3334,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
       propertyPath: m_Name
       value: Hallway AsylumDoor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
@@ -3658,8 +3666,8 @@ GameObject:
   m_Name: Hallway Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &614971572
 Transform:
@@ -3857,8 +3865,8 @@ GameObject:
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &649652355
 Transform:
@@ -3954,8 +3962,8 @@ GameObject:
   m_Name: Cafeteria Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &672141092
 Transform:
@@ -4131,8 +4139,8 @@ GameObject:
   m_Name: Cafeteria Hallway Wall Overhead of Hallway Doorway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &706436592
 Transform:
@@ -4228,8 +4236,8 @@ GameObject:
   m_Name: Hallway Wall Overhead of Exit Door Way Hallway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &734882939
 Transform:
@@ -4530,8 +4538,8 @@ GameObject:
   m_Name: Angled Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &765174711
 BoxCollider:
@@ -5010,8 +5018,8 @@ GameObject:
   m_Name: Exit Hallway Wall Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &865925118
 Transform:
@@ -5289,12 +5297,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: doorframe (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
 --- !u!4 &882809455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6688482884133031103, guid: c4fe888417751ad47a4e5a9d2c3bc271, type: 3}
   m_PrefabInstance: {fileID: 695656801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &895877292 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 57343851370443432, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+  m_PrefabInstance: {fileID: 57343850397927059}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &904365070 stripped
 GameObject:
@@ -5676,8 +5697,8 @@ GameObject:
   m_Name: Cafeteria Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &951024170
 Transform:
@@ -5908,8 +5929,8 @@ GameObject:
   m_Name: Cafeteria Wardens Office Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &976409241
 Transform:
@@ -6223,8 +6244,8 @@ GameObject:
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1059543028
 BoxCollider:
@@ -6338,8 +6359,8 @@ GameObject:
   m_Name: Cafeteria Wardens Office Wall Overhead Doorway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1080214925
 Transform:
@@ -6435,8 +6456,8 @@ GameObject:
   m_Name: Wardens Office Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1087783761
 Transform:
@@ -6636,8 +6657,8 @@ GameObject:
   m_Name: Back Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1126328120
 BoxCollider:
@@ -6867,8 +6888,8 @@ GameObject:
   m_Name: Corner Right of cell door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1137660255
 BoxCollider:
@@ -6959,6 +6980,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsylumDoor Variant 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6312238059894593029, guid: c4fe888417751ad47a4e5a9d2c3bc271, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312238059894593029, guid: c4fe888417751ad47a4e5a9d2c3bc271, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6688482884133031103, guid: c4fe888417751ad47a4e5a9d2c3bc271, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7021,8 +7050,8 @@ GameObject:
   m_Name: Cell Wall Left Of Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1182178984
 Transform:
@@ -7424,8 +7453,8 @@ GameObject:
   m_Name: Hallway Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1242784201
 Transform:
@@ -7779,8 +7808,8 @@ GameObject:
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1307500263
 BoxCollider:
@@ -8173,6 +8202,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: doorframe (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
 --- !u!1 &1378922032 stripped
@@ -8311,8 +8348,8 @@ GameObject:
   m_Name: Cafeteria Hallway Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1425703545
 Transform:
@@ -8408,8 +8445,8 @@ GameObject:
   m_Name: Wall in front of cell door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1429008885
 Transform:
@@ -8939,8 +8976,8 @@ GameObject:
   m_Name: Wardens Office Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1502491944
 Transform:
@@ -9082,6 +9119,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
       propertyPath: m_Name
       value: Hallway AsylumDoor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
@@ -9324,8 +9369,8 @@ GameObject:
   m_Name: Wardens Office Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1571820951
 Transform:
@@ -9426,8 +9471,8 @@ GameObject:
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1607121968
 Transform:
@@ -9802,6 +9847,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wardens Office AsylumDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
 --- !u!1 &1693766146
@@ -9906,8 +9959,8 @@ GameObject:
   m_Name: Cafeteria Wardens Office Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1710146576
 Transform:
@@ -10702,8 +10755,8 @@ GameObject:
   m_Name: Cafeteria Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1798129211
 Transform:
@@ -10946,8 +10999,8 @@ GameObject:
   m_Name: Corner Left of cell door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1834287886
 BoxCollider:
@@ -11124,8 +11177,8 @@ GameObject:
   m_Name: Angled Wall Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1847365999
 BoxCollider:
@@ -11263,6 +11316,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
       propertyPath: m_Name
       value: Wardens Office AsylumDoor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402dba623aa145d4bb1665eab666de83, type: 3}
@@ -11713,8 +11774,8 @@ GameObject:
   m_Name: Wardens Office Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1906956051
 Transform:
@@ -11810,8 +11871,8 @@ GameObject:
   m_Name: Angled Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1914589293
 BoxCollider:
@@ -12009,8 +12070,8 @@ GameObject:
   m_Name: Hallway Wall Overhead of Door Way
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1947586231
 Transform:
@@ -12267,6 +12328,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsylumDoor Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6312238059894593029, guid: c4fe888417751ad47a4e5a9d2c3bc271, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312238059894593029, guid: c4fe888417751ad47a4e5a9d2c3bc271, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6688482884133031103, guid: c4fe888417751ad47a4e5a9d2c3bc271, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12329,8 +12398,8 @@ GameObject:
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1987801069
 BoxCollider:
@@ -12485,8 +12554,8 @@ GameObject:
   m_Name: Cafeteria Hallway Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2029009389
 Transform:
@@ -12895,8 +12964,8 @@ GameObject:
   m_Name: Hallway Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2084300500
 Transform:
@@ -13036,8 +13105,8 @@ GameObject:
   m_Name: Hallway Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2099667961
 Transform:
@@ -13172,6 +13241,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desk Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7713883187684688885, guid: d28d81ebc0aa125408c646da1f4ce6b6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7713883187684688885, guid: d28d81ebc0aa125408c646da1f4ce6b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d28d81ebc0aa125408c646da1f4ce6b6, type: 3}
 --- !u!1001 &2101868068
@@ -13240,6 +13317,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
       propertyPath: m_Name
       value: doorframe (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23ed2077d2f0ed7408349609342a4b64, type: 3}
@@ -13360,13 +13445,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 57343851370443432, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 57343851370443432, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_BaseOffset
-      value: 0.085
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 57343851370443433, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 77157984}
+    - target: {fileID: 57343851370443433, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+      propertyPath: navMeshAgent
+      value: 
+      objectReference: {fileID: 895877292}
     - target: {fileID: 57343851370443433, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
@@ -13431,17 +13524,33 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[15]
       value: 
       objectReference: {fileID: 1710151592}
+    - target: {fileID: 57343851370443434, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 57343851370443434, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
+    - target: {fileID: 57343851370443434, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 57343851370443439, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 7.4965
+      value: 7.496502
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 7.4965
+      value: 7.496502
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalScale.z
@@ -13453,43 +13562,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.579
+      value: 2.4373002
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.095
+      value: -13.85
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.7071068
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 867734834948622661, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_Name
       value: Reaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 867734834948622661, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}

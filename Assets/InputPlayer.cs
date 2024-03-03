@@ -19,6 +19,10 @@ public class InputPlayer : MonoBehaviour
     public GameObject throwable;
     public float throwSpeed = 10f;
 
+    private PickupObject pickupObjectScript;
+    private int hydrantAmount = 0;
+    private int hydrantsUsed = 0;
+
     void Awake()
     {
         controls = new PlayerControls();
@@ -32,10 +36,17 @@ public class InputPlayer : MonoBehaviour
         controls.Gameplay.Look.canceled += ctx => rotate = Vector2.zero;
     }
 
+    void Start()
+    {
+        pickupObjectScript = GetComponent<PickupObject>();
+    }
+
     void Update()
     {
         if (pauseMenu.GameIsPaused == false)
 		{
+            hydrantAmount = pickupObjectScript.hydrantAmount;
+
         #region controller movement
         // Movement
         Vector3 m = new Vector3(move.x, 0, move.y) * 10f * Time.deltaTime;
@@ -88,6 +99,8 @@ public class InputPlayer : MonoBehaviour
 
     void Throw()
     {
+        if((hydrantAmount-hydrantsUsed) == 0 )
+            return;
         // Offset distance in front of the player to spawn the throwable
         float offsetDistance = 1.0f;
 
