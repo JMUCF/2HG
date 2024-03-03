@@ -69,7 +69,8 @@ public class InputPlayer : MonoBehaviour
         #endregion
 
         #region cameraClamp
-        Vector3 cameraRotation = cameraTransform.transform.localEulerAngles;
+        //Vector3 cameraRotation = cameraTransform.transform.localEulerAngles;
+        Vector3 cameraRotation = Vector3.zero;
         // Min/max angles for vertical rotation
         float minVerticalAngle = -40f;
         float maxVerticalAngle = 40f;
