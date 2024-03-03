@@ -13,9 +13,9 @@ public class MenuNavigation : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("Main Level");
-        musicSource.clip = Ambience;
+        musicSource.clip = buttonAudio;
         musicSource.Play();
+        SceneManager.LoadScene("Main Level");
     }
 
     public void QuitButton()
