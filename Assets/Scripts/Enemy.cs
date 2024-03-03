@@ -30,10 +30,12 @@ public class Enemy : MonoBehaviour
 		if(fov.visibleTarget.Count > 0)
 			navMeshAgent.SetDestination(target.transform.position);
 		
+        /* move to sound code
         SoundBox = GameObject.FindGameObjectsWithTag("SoundBox");
 
         if (SoundBox.Length != 0)
             navMeshAgent.SetDestination(SoundBox[0].transform.position);
+        */
 
         if (navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance)
         {
@@ -54,6 +56,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
+/*
     void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "SoundBox")
@@ -61,5 +64,5 @@ public class Enemy : MonoBehaviour
             Debug.Log("Enemy hit sound box");
             Destroy(collision.gameObject);
         }
-    }
+    }*/
 }
