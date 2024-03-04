@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,13 +16,7 @@ public class GameManager : MonoBehaviour
                 // Check if the key amount is greater than zero
                 if (pickupObject.keyAmount > 0)
                 {
-                    Debug.Log("You escaped the prison! You win!");
-                    // Additional actions you want to take upon winning
-                }
-                else
-                {
-                    Debug.Log("You don't have enough keys to escape!");
-                    // Additional actions you want to take if the player doesn't have enough keys
+                    SceneManager.LoadScene("Win");
                 }
             }
         }

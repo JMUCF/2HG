@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 609a57c4165653148a1772c791f9b58a, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2088,6 +2088,14 @@ PrefabInstance:
     - target: {fileID: 5806718669692774975, guid: 42189c8b29efcdd49b458e162fd82ead, type: 3}
       propertyPath: m_Name
       value: Player_Scaled
+      objectReference: {fileID: 0}
+    - target: {fileID: 5806718669692774975, guid: 42189c8b29efcdd49b458e162fd82ead, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5806718669692774975, guid: 42189c8b29efcdd49b458e162fd82ead, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6619811455197442181, guid: 42189c8b29efcdd49b458e162fd82ead, type: 3}
       propertyPath: m_RootOrder
@@ -10365,7 +10373,7 @@ GameObject:
   - component: {fileID: 1742554741}
   - component: {fileID: 1742554743}
   - component: {fileID: 1742554742}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13688,7 +13696,7 @@ PrefabInstance:
     - target: {fileID: 57343851370443433, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1403129282}
     - target: {fileID: 57343851370443433, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_Enabled
       value: 1
