@@ -31,8 +31,6 @@ public class PauseMenu : MonoBehaviour
             else
             {
                 Pause();
-                musicSource.clip = pauseAudio;
-                musicSource.Play();
             }
         }
     }
