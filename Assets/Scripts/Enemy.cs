@@ -27,13 +27,6 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        #region fixReaperRotation
-        Quaternion currentRotation = transform.rotation;
-        float desiredXRotation = 270f;
-        Quaternion newRotation = Quaternion.Euler(desiredXRotation, currentRotation.eulerAngles.y, currentRotation.eulerAngles.z);
-        transform.rotation = newRotation;
-        #endregion
-
 		if(fov.visibleTarget.Count > 0)
 			navMeshAgent.SetDestination(target.transform.position);
 

@@ -21,7 +21,7 @@ public class PickupObject : MonoBehaviour
     {
         playerAudioSource = GetComponent<AudioSource>();
     }
-    
+
     void Update()
     {
         // Check if the player is looking at an object to pick up
@@ -67,11 +67,12 @@ public class PickupObject : MonoBehaviour
         }
     }
 
+/*
     public void Pickup()
     {
         if(objectToPickup.CompareTag("hydrant"))
             hydrantAmount++;
-        if(objectToPickup.CompareTag("key"))
+        else if(objectToPickup.CompareTag("key"))
             keyAmount++;
 
         //play pickup audio
@@ -81,5 +82,29 @@ public class PickupObject : MonoBehaviour
         Destroy(objectToPickup);
         // Hide pickup message after picking up
         pickupMessage.text = "";
+    }*/
+
+    public void Pickup()
+{
+    if (objectToPickup != null)
+    {
+        if (objectToPickup.CompareTag("hydrant"))
+            hydrantAmount++;
+        else if (objectToPickup.CompareTag("key"))
+            keyAmount++;
+
+        // Play pickup audio
+        playerAudioSource.Play();
+
+        // Destroy the object that was picked up
+        Destroy(objectToPickup);
+        // Hide pickup message after picking up
+        pickupMessage.text = "";
     }
+    else
+    {
+        Debug.LogWarning("Attempted to pick up a null object.");
+    }
+}
+
 }
