@@ -37,6 +37,8 @@ public class InputPlayer : MonoBehaviour
         controls.Gameplay.Look.canceled += ctx => rotate = Vector2.zero;
 
         controls.Gameplay.Pickup.performed += ctx => pickupObjectScript.Pickup();
+
+        controls.Gameplay.Pause.performed += ctx => pauseMenu.Pause();
     }
 
     void Update()
