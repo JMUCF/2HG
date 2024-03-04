@@ -15,6 +15,13 @@ public class PickupObject : MonoBehaviour
     private GameObject objectToPickup; // Reference to the object to pick up
     private bool isLookingAtObject = false; // Flag to track if the player is looking at a pickable object
 
+    private AudioSource playerAudioSource;
+
+    void Start()
+    {
+        playerAudioSource = GetComponent<AudioSource>();
+    }
+    
     void Update()
     {
         // Check if the player is looking at an object to pick up
@@ -66,6 +73,10 @@ public class PickupObject : MonoBehaviour
             hydrantAmount++;
         if(objectToPickup.CompareTag("key"))
             keyAmount++;
+
+        //play pickup audio
+        playerAudioSource.Play();
+
         // Destroy the object that was picked up
         Destroy(objectToPickup);
         // Hide pickup message after picking up
