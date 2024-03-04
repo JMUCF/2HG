@@ -14177,7 +14177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 57343851370443432, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_BaseOffset
-      value: 0.38
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 57343851370443433, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: target
@@ -14305,7 +14305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.794
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14313,23 +14313,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 270
+      value: 360
       objectReference: {fileID: 0}
     - target: {fileID: 522699653429859327, guid: 82822dd86900d2a4d9e2307bd6a998a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
