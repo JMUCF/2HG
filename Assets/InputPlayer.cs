@@ -26,6 +26,7 @@ public class InputPlayer : MonoBehaviour
     void Awake()
     {
         controls = new PlayerControls();
+        pickupObjectScript = GetComponent<PickupObject>();
 
         controls.Gameplay.Throw.performed += ctx => Throw();
 
@@ -34,11 +35,8 @@ public class InputPlayer : MonoBehaviour
 
         controls.Gameplay.Look.performed += ctx => rotate = ctx.ReadValue<Vector2>();
         controls.Gameplay.Look.canceled += ctx => rotate = Vector2.zero;
-    }
 
-    void Start()
-    {
-        pickupObjectScript = GetComponent<PickupObject>();
+        controls.Gameplay.Pickup.performed += ctx => pickupObjectScript.Pickup();
     }
 
     void Update()

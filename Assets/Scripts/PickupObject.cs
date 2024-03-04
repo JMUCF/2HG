@@ -60,7 +60,7 @@ public class PickupObject : MonoBehaviour
         }
     }
 
-    void Pickup()
+    public void Pickup()
     {
         if(objectToPickup.CompareTag("hydrant"))
             hydrantAmount++;
